@@ -32,7 +32,9 @@ struct InfiniteTabView: View {
         .onChange(of: index) { oldValue, newValue in
             guard newValue != 1 else { return }
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(140)) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(200)) {
+                guard newValue == index else { return }
+                
                 if newValue == 2 {
                     if (elements.count - 1) >= (centerElementIndex + 1) {
                         centerElementIndex += 1
