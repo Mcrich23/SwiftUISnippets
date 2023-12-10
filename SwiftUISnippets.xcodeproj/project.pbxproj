@@ -11,6 +11,7 @@
 		221343702B265FAC0022626C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213436F2B265FAC0022626C /* ContentView.swift */; };
 		221343722B265FAD0022626C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221343712B265FAD0022626C /* Assets.xcassets */; };
 		221343752B265FAD0022626C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221343742B265FAD0022626C /* Preview Assets.xcassets */; };
+		2213437C2B265FC80022626C /* InfiniteTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213437B2B265FC80022626C /* InfiniteTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2213436F2B265FAC0022626C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		221343712B265FAD0022626C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221343742B265FAD0022626C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2213437B2B265FC80022626C /* InfiniteTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2213436D2B265FAC0022626C /* SwiftUISnippetsApp.swift */,
 				2213436F2B265FAC0022626C /* ContentView.swift */,
+				2213437B2B265FC80022626C /* InfiniteTabView.swift */,
 				221343712B265FAD0022626C /* Assets.xcassets */,
 				221343732B265FAD0022626C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2213437C2B265FC80022626C /* InfiniteTabView.swift in Sources */,
 				221343702B265FAC0022626C /* ContentView.swift in Sources */,
 				2213436E2B265FAC0022626C /* SwiftUISnippetsApp.swift in Sources */,
 			);
